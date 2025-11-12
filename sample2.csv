@@ -1,0 +1,2 @@
+user_id,name,phone,email,user_group,start_datetime,expiry_datetime,csn,access_on_card,csn_mobile,face_image_file1,face_image_file2
+6,Adrian,,adrian@email.com,All Users,2001-01-01 00:00:00,2030-12-31 23:59:00,,,,,

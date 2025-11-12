@@ -1,0 +1,8 @@
+chmod +x login.sh upload_attachment.sh upload_face.sh upload_picture.sh check_picture.sh csv_import.sh
+
+source ./login.sh admin Pass.1234
+echo $SESSION_ID
+./upload_attachment.sh "C:/Users/user1/users.csv"
+./csv_import.sh users.csv
+./upload_face.sh Jack1.png 102
+./check_picture.sh Jack1.png
